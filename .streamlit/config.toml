@@ -1,0 +1,14 @@
+# Tema visual de EDO Circuit Lab: interfaz científica clara, azul oscuro
+# como color principal (según el diseño propuesto en el documento).
+[theme]
+base = "light"
+primaryColor = "#1f4e79"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f7fa"
+textColor = "#1c2733"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,21 @@
+# Entorno virtual (no se versiona)
+.venv/
+venv/
+
+# Caché y artefactos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Secretos locales (nunca subir tokens)
+.streamlit/secrets.toml
+.env
+
+# Exportaciones generadas
+*.pdf
