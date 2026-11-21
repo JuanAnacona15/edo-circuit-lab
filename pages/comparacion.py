@@ -7,6 +7,10 @@ Demuestra que el cálculo manual/simbólico (SymPy) y la simulación numérica
 import numpy as np
 import streamlit as st
 
+from utils import styling
+
+styling.inject()
+
 from core import numerical_solver, rc_model, rl_model, symbolic_solver, validation
 from utils import formatting as fmt
 from utils import plotting

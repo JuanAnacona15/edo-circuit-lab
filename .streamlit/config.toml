@@ -1,11 +1,11 @@
-# Tema visual de EDO Circuit Lab: interfaz científica clara, azul oscuro
-# como color principal (según el diseño propuesto en el documento).
+# Tema visual de EDO Circuit Lab: neón futurista sobre fondo oscuro.
+# (Los efectos de resplandor y animaciones viven en utils/styling.py.)
 [theme]
-base = "light"
-primaryColor = "#1f4e79"
-backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#f4f7fa"
-textColor = "#1c2733"
+base = "dark"
+primaryColor = "#00e5ff"
+backgroundColor = "#05060f"
+secondaryBackgroundColor = "#0a0b1e"
+textColor = "#e8ecff"
 
 [server]
 headless = true

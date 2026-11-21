@@ -8,6 +8,10 @@ parámetros.
 import numpy as np
 import streamlit as st
 
+from utils import styling
+
+styling.inject()
+
 from core import rc_model, rl_model
 from utils import plotting
 

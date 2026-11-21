@@ -6,6 +6,10 @@ capacitor a través de una resistencia.
 
 import streamlit as st
 
+from utils import styling
+
+styling.inject()
+
 from core import rc_model
 from utils import formatting as fmt
 from utils import plotting

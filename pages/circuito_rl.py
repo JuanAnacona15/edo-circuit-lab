@@ -6,6 +6,10 @@ bobina conectada a una fuente de voltaje constante.
 
 import streamlit as st
 
+from utils import styling
+
+styling.inject()
+
 from core import rl_model
 from utils import formatting as fmt
 from utils import plotting

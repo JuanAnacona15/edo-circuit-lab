@@ -13,6 +13,8 @@ Ejecutar con:
 
 import streamlit as st
 
+from utils import styling
+
 # Configuración global (tema, layout). Debe llamarse ANTES de cualquier otro
 # comando de Streamlit y solo aquí, en el punto de entrada.
 st.set_page_config(
@@ -21,6 +23,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+# Aplicar el tema neón (CSS global) antes de montar la navegación.
+styling.inject()
 
 # Navegación: un st.Page por cada módulo del proyecto. El orden de la lista
 # define el orden del menú lateral.

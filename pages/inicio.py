@@ -2,8 +2,21 @@
 
 import streamlit as st
 
+from utils import styling
+
+styling.inject()
+
 st.title("⚡ EDO Circuit Lab")
-st.subheader("Laboratorio interactivo de ecuaciones diferenciales aplicadas a circuitos RC y RL")
+st.markdown(
+    '<div style="font-size:1.1rem; color:#8b93b8; margin-top:-0.5rem; letter-spacing:0.4px;">'
+    'Laboratorio interactivo de '
+    '<span style="color:#00e5ff; text-shadow:0 0 10px rgba(0,229,255,0.6);">ecuaciones diferenciales</span> '
+    'aplicadas a circuitos '
+    '<span style="color:#ff00e5; text-shadow:0 0 10px rgba(255,0,229,0.6);">RC</span> y '
+    '<span style="color:#ff00e5; text-shadow:0 0 10px rgba(255,0,229,0.6);">RL</span>'
+    '</div>',
+    unsafe_allow_html=True,
+)
 
 st.markdown(
     """

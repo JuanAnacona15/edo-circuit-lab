@@ -6,6 +6,10 @@ es exacta se convierte en exacta mediante un factor integrante.
 
 import streamlit as st
 
+from utils import styling
+
+styling.inject()
+
 from core import exact_equations as ee
 from utils import formatting as fmt
 

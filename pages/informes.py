@@ -5,6 +5,10 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from utils import styling
+
+styling.inject()
+
 from core import rc_model, regression, rl_model
 from utils import export
 from utils import formatting as fmt

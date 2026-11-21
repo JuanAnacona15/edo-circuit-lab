@@ -8,6 +8,10 @@ from pathlib import Path
 
 import streamlit as st
 
+from utils import styling
+
+styling.inject()
+
 from core import regression
 from utils import export
 from utils import formatting as fmt
